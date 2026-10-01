@@ -113,9 +113,9 @@ function App() {
         setLoading(true);
         setProductError("");
 
-        const response = await fetch(
-          "https://flipkart-clone-backend-q6oy.onrender.com/products"
-        );
+       const response = await fetch(
+  "https://quickcart-backend-v0sy.onrender.com/products"
+);
 
         if (!response.ok) {
           throw new Error("Failed to fetch products");
@@ -726,8 +726,7 @@ function App() {
       <nav className="navbar">
 
         <div className="logo">
-          Flipkart{" "}
-          <span>Clone</span>
+          QuickCart
         </div>
 
         <input
